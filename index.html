@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>LinguaMaster - Изучай иностранный язык</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Шапка приложения -->
+        <header class="app-header">
+            <h1>LinguaMaster</h1>
+            <div class="user-stats-mini">
+                <span id="userLevel">Уровень 1</span>
+                <span id="userPoints">⭐ 0 XP</span>
+            </div>
+        </header>
+
+        <!-- Основной контент -->
+        <main id="mainContent">
+            <!-- Здесь динамически загружается контент -->
+        </main>
+
+        <!-- Нижняя навигация -->
+        <nav class="bottom-nav">
+            <button class="nav-btn active" data-view="home">🏠 Главная</button>
+            <button class="nav-btn" data-view="lessons">📚 Уроки</button>
+            <button class="nav-btn" data-view="practice">🎯 Тренировка</button>
+            <button class="nav-btn" data-view="progress">📊 Прогресс</button>
+        </nav>
+    </div>
+
+    <!-- Подключение модулей -->
+    <script src="js/storage.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/media.js"></script>
+    <script src="js/exercises.js"></script>
+    <script src="js/modules.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
